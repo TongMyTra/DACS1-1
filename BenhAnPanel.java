@@ -32,7 +32,7 @@ public class BenhAnPanel extends JPanel {
         benhanModel = con.getBenhAnModel();
         benhanTable = new JTable(benhanModel);
         benhanTable.setBorder(new LineBorder(new Color(64, 64, 64), 2, true));
-        benhanTable.setFont(new Font("Tahoma", Font.PLAIN, 15));
+        benhanTable.setFont(new Font("Constantia", Font.PLAIN, 15));
         benhanTable.setForeground(new Color(128, 0, 0));
         benhanTable.setBackground(new Color(227, 227, 227));
 
